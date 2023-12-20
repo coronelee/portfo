@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;600&display=swap");
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(14, 20, 27, 1) 0%,
+    rgba(30, 40, 48, 1) 100%
+  );
+
+  &__container {
+    max-width: 1000px;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .container__Leftblock {
+      width: 45%;
+      max-width: 450px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-family: "Archivo", sans-serif;
+      h4,
+      h5 {
+        color: rgb(156, 168, 180);
+        font-size: clamp(0.8rem, 12vw, 1.4rem);
+      }
+      * {
+        margin: 0;
+        width: 100%;
+      }
+      h1 {
+        color: white;
+        font-size: clamp(1.6rem, 24vw, 2.8rem);
+      }
+      button {
+        font-family: "Archivo", sans-serif;
+        font-size: 16px;
+        width: 120px;
+        height: 45px;
+        margin-top: 15px;
+        background-color: rgb(129, 45, 78);
+        color: white;
+        border-radius: 10px;
+        border: none;
+        transition: 0.4s all;
+        &:hover {
+          filter: brightness(70%);
+          cursor: pointer;
+        }
+      }
+    }
+    .container__Rightblock {
+      width: 450px;
+      height: 450px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      div {
+        width: 100%;
+        height: 100%;
+        background-image: url(/src/assets/header.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    &__container {
+      .container__Leftblock {
+        width: auto;
+        text-align: center;
+        h4 {
+          margin-bottom: 10px;
+        }
+        button {
+          margin: 0 auto;
+        }
+      }
+      .container__Rightblock {
+        display: none;
+        visibility: hidden;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .wrapper {
+    &__container {
+      width: 70%;
+    }
+  }
+}

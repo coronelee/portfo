@@ -1,0 +1,11 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+  background-color: rgba(14, 20, 27, 1);
+  &__container{
+    min-width: 1000px;
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+  }
+}

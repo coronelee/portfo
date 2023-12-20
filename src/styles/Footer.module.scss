@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;600&display=swap");
+.wrapper {
+  width: 100%;
+  height: auto;
+  background-color: rgb(3, 18, 33);
+  background-size: contain;
+  &__container {
+    max-width: 1000px;
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container__leftBlock {
+      position: absolute;
+      left: 0;
+      color: white;
+      svg {
+        height: 40px;
+        width: 40px;
+      }
+      h4 {
+        margin: 0;
+        font-family: "Archivo", sans-serif;
+        font-weight: 300;
+      }
+    }
+    .container__rightBlock {
+      position: absolute;
+      right: 0;
+      h4 {
+        color: white;
+        margin: 0;
+        font-family: "Archivo", sans-serif;
+        font-weight: 600;
+        text-align: center;
+      }
+      div {
+        margin: 0 auto;
+        width: 70px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        a {
+          text-decoration: none;
+          outline: none;
+          margin: 0 auto;
+          color: rgb(250, 56, 121);
+          svg {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+      a {
+        margin-top: 10px;
+        color: white;
+        font-family: "Archivo", sans-serif;
+        font-weight: 300;
+        text-decoration: none;
+        outline: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    &__container {
+      width: auto;
+      flex-direction: column;
+      .container__leftBlock {
+        svg{
+          width: 100%;
+          text-align: center;
+        }
+        position: sticky;
+      }
+      .container__rightBlock {
+        margin-top: 20px;
+        position: sticky;
+      }
+    }
+  }
+}

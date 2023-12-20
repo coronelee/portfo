@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;600&display=swap');
+.wrapper {
+  width: 100vw;
+  height: 80px;
+  z-index: 100;
+  position: fixed;
+  background-color: rgba(14,20,27, .7);
+  backdrop-filter: blur(5px);
+  &__container {
+    max-width: 1000px;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &__logo {
+      position: absolute;
+      left: 15px;
+      *{
+        width: 40px;
+        height: 40px;
+        color: white;
+      }
+    }
+    &__buttonsBar {
+      position: absolute;
+      right: 15px;
+      display: flex;
+      gap: 15px;
+      svg{
+        color: white;
+        width: 40px;
+        height: 40px;
+        color: white;
+      }
+      a {
+        text-decoration: none;
+        outline: none;
+        color: rgb(250, 56, 121);
+        font-family: 'Archivo', sans-serif;
+        font-weight: 300;
+        transition: .4s all;
+        &:hover{
+            filter:brightness(70%)
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    &__container {
+      width: 70%;
+    }
+  }
+}
