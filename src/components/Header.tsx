@@ -22,6 +22,10 @@ export default function Header() {
       window.removeEventListener("resize", handleWindowResize);
     };
   }, []);
+
+  if(clicked){
+    document.body.style.overflow = "hidden"
+  }else{document.body.style.overflow = "visible"}
   return (
     <div className={styles.wrapper}>
       {clicked ? (
