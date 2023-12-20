@@ -7,7 +7,7 @@ body {
   height: 100%;
   text-decoration: none;
 }
-._wrapper_1il0p_2 {
+._wrapper_1powy_2 {
   width: 100vw;
   height: 80px;
   z-index: 100;
@@ -15,22 +15,23 @@ body {
   background-color: #0e141bb3;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+  scroll-behavior: smooth;
 }
-._wrapper_1il0p_2 ._menuHamburger_1il0p_10 {
+._wrapper_1powy_2 ._menuHamburger_1powy_11 {
   position: absolute;
   width: 100vw;
   height: 100vh;
   top: 0;
-  background-color: rgba(14,20,27, .6);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  background-color: #0e141b66;
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 25px;
 }
-._wrapper_1il0p_2 ._menuHamburger_1il0p_10 a {
+._wrapper_1powy_2 ._menuHamburger_1powy_11 a {
   text-decoration: none;
   outline: none;
   color: #fa3879;
@@ -39,10 +40,10 @@ body {
   transition: 0.4s all;
   font-size: 25px;
 }
-._wrapper_1il0p_2 ._menuHamburger_1il0p_10 a:hover {
+._wrapper_1powy_2 ._menuHamburger_1powy_11 a:hover {
   filter: brightness(70%);
 }
-._wrapper__container_1il0p_35 {
+._wrapper__container_1powy_36 {
   max-width: 1000px;
   width: 60%;
   height: 100%;
@@ -52,27 +53,27 @@ body {
   align-items: center;
   position: relative;
 }
-._wrapper__container__logo_1il0p_45 {
+._wrapper__container__logo_1powy_46 {
   position: absolute;
   left: 15px;
 }
-._wrapper__container__logo_1il0p_45 * {
+._wrapper__container__logo_1powy_46 * {
   width: 40px;
   height: 40px;
   color: #fff;
 }
-._wrapper__container__buttonsBar_1il0p_54 {
+._wrapper__container__buttonsBar_1powy_55 {
   position: absolute;
   right: 15px;
   display: flex;
   gap: 15px;
 }
-._wrapper__container__buttonsBar_1il0p_54 svg {
+._wrapper__container__buttonsBar_1powy_55 svg {
   width: 40px;
   height: 40px;
   color: #fff;
 }
-._wrapper__container__buttonsBar_1il0p_54 a {
+._wrapper__container__buttonsBar_1powy_55 a {
   text-decoration: none;
   outline: none;
   color: #fa3879;
@@ -80,11 +81,11 @@ body {
   font-weight: 300;
   transition: 0.4s all;
 }
-._wrapper__container__buttonsBar_1il0p_54 a:hover {
+._wrapper__container__buttonsBar_1powy_55 a:hover {
   filter: brightness(70%);
 }
 @media (max-width: 600px) {
-  ._wrapper__container_1il0p_35 {
+  ._wrapper__container_1powy_36 {
     width: 70%;
   }
 }

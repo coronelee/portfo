@@ -8995,11 +8995,11 @@ cc(), (ss.exports = ge);
 var Wd = ss.exports,
   Gu = Wd;
 (ql.createRoot = Gu.createRoot), (ql.hydrateRoot = Gu.hydrateRoot);
-const Qd = "_wrapper_1il0p_2",
-  Kd = "_menuHamburger_1il0p_10",
-  Yd = "_wrapper__container_1il0p_35",
-  Xd = "_wrapper__container__logo_1il0p_45",
-  Gd = "_wrapper__container__buttonsBar_1il0p_54",
+const Qd = "_wrapper_1powy_2",
+  Kd = "_menuHamburger_1powy_11",
+  Yd = "_wrapper__container_1powy_36",
+  Xd = "_wrapper__container__logo_1powy_46",
+  Gd = "_wrapper__container__buttonsBar_1powy_55",
   St = {
     wrapper: Qd,
     menuHamburger: Kd,
@@ -9175,6 +9175,9 @@ function ep() {
         }
       );
     }, []),
+    e
+      ? (document.body.style.overflow = "hidden")
+      : (document.body.style.overflow = "visible"),
     g.jsxs("div", {
       className: St.wrapper,
       children: [
