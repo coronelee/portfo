@@ -1,5 +1,8 @@
-import React from "react";
+
 import styles from "../styles/AboutMe.module.scss";
+import { FaTelegram } from "react-icons/fa";
+import { SlSocialVkontakte } from "react-icons/sl";
+import { LuMailOpen } from "react-icons/lu";
 export default function AboutMe() {
   return (
     <div className={styles.wrapper} id="aboutme">
@@ -22,6 +25,19 @@ export default function AboutMe() {
               внести свой вклад в ваш бизнес. Не стесняйтесь обращаться ко мне,
               если вы сочтете мои навыки полезными
             </h2>
+            <h4>Связь со мной</h4>
+            <div>
+              <a href="https://t.me/yourantosha">
+                <FaTelegram />
+              </a>
+              <a href="https://vk.com/6old6">
+                <SlSocialVkontakte />
+              </a>
+            </div>
+            <a href="mailto:tacontactta@gmail.com">
+              <LuMailOpen />
+              <span>tacontactta@gmail.com</span>
+            </a>
           </div>
           <div className={styles.container__rightBlock}>
             <h1>Умения и технологии</h1>

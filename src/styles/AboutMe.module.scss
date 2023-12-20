@@ -49,6 +49,36 @@
       width: 50%;
       height: auto;
       padding: 10px;
+      h4 {
+        color: white;
+        margin: 0;
+        font-family: "Archivo", sans-serif;
+        font-weight: 600;
+      }
+      div {
+        width: 70px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        a {
+          text-decoration: none;
+          outline: none;
+          margin: 0 auto;
+          color: rgb(250, 56, 121);
+          svg {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+      a {
+        margin-top: 10px;
+        color: white;
+        font-family: "Archivo", sans-serif;
+        font-weight: 300;
+        text-decoration: none;
+        outline: none;
+      }
     }
     .container__rightBlock {
       padding: 10px;
@@ -68,7 +98,12 @@
           background-color: rgb(8, 28, 48);
           border-radius: 5px;
           color: white;
+          transition: .3s all;
+          &:hover{
+            background-color:rgb(10, 36, 62)
+          }
         }
+        
       }
     }
   }
@@ -77,6 +112,11 @@
   .wrapper {
     &__container {
       width: 70%;
+      .container__leftBlock {
+        span{
+          font-size: 14px;
+        }
+      }
     }
   }
 }
@@ -91,6 +131,11 @@
           text-align: center;
           padding: 0;
           width: 100%;
+        }
+        .container__leftBlock {
+          div{
+            margin: 0 auto;
+          }
         }
       }
     }

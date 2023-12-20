@@ -1,4 +1,4 @@
-import React from "react";
+
 import styles from "../styles/Footer.module.scss";
 import { RxVercelLogo } from "react-icons/rx";
 import { FaTelegram } from "react-icons/fa";
