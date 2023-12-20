@@ -26,7 +26,7 @@ export default function Header() {
     <div className={styles.wrapper}>
       {clicked ? (
         <div className={styles.menuHamburger} onClick={()=>setClicked(false)}>
-          <a href="main">ГЛАВНАЯ</a>
+          <a href="#main">ГЛАВНАЯ</a>
           <a href="#aboutme">ОБО МНЕ</a>
           <a onClick={() => alert("Появится позже")}>РАБОТЫ</a>
         </div>
