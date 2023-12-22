@@ -31,17 +31,21 @@
     .items {
       display: grid;
       gap: 15px;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
       &__project {
         width: 450px;
-        height: 600px;
+        height: 200px;
         border-radius: 10px;
         background-color: rgb(3, 18, 33);
         .project__preview {
             width: 100%;
             height: 200px;
-            background-color: black;
+            background-image: url('../assets/work1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 20px;
         }
         .project__about {
             width: 100%;

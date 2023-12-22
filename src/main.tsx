@@ -5,13 +5,14 @@ import Header from './components/Header.jsx'
 import MainWindow from './components/MainWindow.tsx'
 import AboutMe from './components/AboutMe.tsx'
 import Footer from './components/Footer.tsx'
+import Works from './components/Works.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Header />
     <MainWindow />
     <AboutMe />
-    {/* <Works /> */}
+    <Works />
     <Footer />
   </React.StrictMode>,
 )

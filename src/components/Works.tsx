@@ -13,28 +13,7 @@ export default function Works() {
 
         <div className={styles.items}>
             <div className={styles.items__project}>
-                <div className={styles.project__preview}></div>
-                <div className={styles.project__about}></div>
-            </div>
-            <div className={styles.items__project}>
-                <div className={styles.project__preview}></div>
-                <div className={styles.project__about}></div>
-            </div>
-            <div className={styles.items__project}>
-                <div className={styles.project__preview}></div>
-                <div className={styles.project__about}></div>
-            </div>
-            <div className={styles.items__project}>
-                <div className={styles.project__preview}></div>
-                <div className={styles.project__about}></div>
-            </div>
-            <div className={styles.items__project}>
-                <div className={styles.project__preview}></div>
-                <div className={styles.project__about}></div>
-            </div>
-            <div className={styles.items__project}>
-                <div className={styles.project__preview}></div>
-                <div className={styles.project__about}></div>
+                <a href="https://coronelee.github.io/transportcompany/"><div className={styles.project__preview}></div></a>
             </div>
         </div>
       </div>
