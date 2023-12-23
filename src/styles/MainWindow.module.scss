@@ -38,8 +38,12 @@
         color: white;
         font-size: clamp(1.6rem, 24vw, 2.8rem);
       }
-      button {
+      a {
         font-family: "Archivo", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
         font-size: 16px;
         width: 120px;
         height: 45px;
