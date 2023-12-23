@@ -32,7 +32,7 @@ export default function Header() {
         <div className={styles.menuHamburger} onClick={()=>setClicked(false)}>
           <a href="#main">ГЛАВНАЯ</a>
           <a href="#aboutme">ОБО МНЕ</a>
-          <a onClick={() => alert("Появится позже")}>РАБОТЫ</a>
+          <a href="#works">РАБОТЫ</a>
         </div>
       ) : (
         ""
@@ -54,7 +54,7 @@ export default function Header() {
             <>
               <a href="main">ГЛАВНАЯ</a>
               <a href="#aboutme">ОБО МНЕ</a>
-              <a onClick={() => alert("Появится позже")}>РАБОТЫ</a>
+              <a href="#works">РАБОТЫ</a>
             </>
           )}
         </div>

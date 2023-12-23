@@ -2,7 +2,7 @@
 import styles from "../styles/Works.module.scss";
 export default function Works() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="works">
       <div className={styles.wrapper__container}>
         <h1>РАБОТЫ</h1>
         <div className={styles.line}></div>

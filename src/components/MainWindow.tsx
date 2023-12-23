@@ -8,7 +8,7 @@ export default function MainWindow() {
                 <h5>Привет! Меня зовут</h5>
                 <h1>Антон,</h1>
                 <h4>увлеченный фронтенд-разработчик, специализирующийся на создании интерактивных, доступных и адаптивных веб-сайтов.</h4>
-                <button onClick={()=>alert("Появится позже")}>Мои работы</button>
+                <a href='#works'>Мои работы</a>
             </div>
             <div className={styles.container__Rightblock}>
               <div></div>
