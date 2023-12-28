@@ -52,7 +52,7 @@ export default function Header() {
             </>
           ) : (
             <>
-              <a href="main">ГЛАВНАЯ</a>
+              <a href="#main">ГЛАВНАЯ</a>
               <a href="#aboutme">ОБО МНЕ</a>
               <a href="#works">РАБОТЫ</a>
             </>
