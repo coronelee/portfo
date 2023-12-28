@@ -53,6 +53,10 @@ export default function AboutMe() {
               <span>GIMP</span>
               <span>Photoshop</span>
               <span>VSCode</span>
+              <span>БЭМ</span>
+              <span>vite</span>
+              <span>adaptive</span>
+              <span>cross-browser</span>
             </div>
             <h1>Знаком с:</h1>
             <div className={styles.tech}>
