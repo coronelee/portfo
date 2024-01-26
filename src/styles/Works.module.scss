@@ -29,7 +29,7 @@
       width: 700px;
     }
     .items {
-      height: 200px;
+      height: auto;
       display: grid;
       gap: 15px;
       grid-template-columns: 1fr;
@@ -42,15 +42,23 @@
         .project__preview {
             width: 100%;
             height: 200px;
-            background-image: url('../assets/work1.jpg');
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: center;
-            border-radius: 20px;
+            border-radius: 20px; 
         }
         .project__about {
             width: 100%;
             height: 400px;
+        }
+        &:nth-child(1){
+          .project__preview{
+            background-image: url("../assets/work1.jpg");
+          }
+        }
+        &:nth-child(2){
+          .project__preview{
+            background-image: url("../assets/work2.jpeg");
+          }
         }
       }
     }
