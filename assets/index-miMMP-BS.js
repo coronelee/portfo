@@ -9520,7 +9520,7 @@ function jp() {
                 href: "https://coronelee.github.io/transportcompany/",
                 children: m.jsx("div", {
                   className: Ie.project__preview,
-                  style: { backgroundImage: "../assets/work1.jpg" },
+                  style: { backgroundImage: "work1.jpg" },
                 }),
               }),
             }),
@@ -9530,7 +9530,7 @@ function jp() {
                 href: "https://github.com/coronelee/avion",
                 children: m.jsx("div", {
                   className: Ie.project__preview,
-                  style: { backgroundImage: "../assets/work2.jpeg" },
+                  style: { backgroundImage: "work2.jpeg" },
                 }),
               }),
             }),
@@ -9540,7 +9540,7 @@ function jp() {
                 href: "https://coronelee.github.io/taskgame/",
                 children: m.jsx("div", {
                   className: Ie.project__preview,
-                  style: { backgroundImage: "../assets/work3.jpg" },
+                  style: { backgroundImage: "work3.jpg" },
                 }),
               }),
             }),
