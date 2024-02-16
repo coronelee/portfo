@@ -40,24 +40,30 @@
         border-radius: 10px;
         background-color: rgb(3, 18, 33);
         .project__preview {
-            width: 100%;
-            height: 200px;
-            background-size: cover;
-            background-repeat: no-repeat;
-            border-radius: 20px; 
+          width: 100%;
+          height: 200px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 20px;
+          background-position: center;
         }
         .project__about {
-            width: 100%;
-            height: 400px;
+          width: 100%;
+          height: 400px;
         }
-        &:nth-child(1){
-          .project__preview{
+        &:nth-child(1) {
+          .project__preview {
             background-image: url("../assets/work1.jpg");
           }
         }
-        &:nth-child(2){
-          .project__preview{
+        &:nth-child(2) {
+          .project__preview {
             background-image: url("../assets/work2.jpeg");
+          }
+        }
+        &:nth-child(3) {
+          .project__preview {
+            background-image: url("../assets/work3.jpg");
           }
         }
       }
@@ -67,10 +73,10 @@
 @media (max-width: 950px) {
   .wrapper {
     &__container {
-      h4{
+      h4 {
         width: auto;
       }
-      .items{
+      .items {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
       }
@@ -80,21 +86,20 @@
 @media (max-width: 500px) {
   .wrapper {
     &__container {
-      h4{
+      h4 {
         width: 300px;
       }
-      .items{
+      .items {
         &__project {
           width: 300px;
           height: auto;
           border-radius: 10px;
           background-color: rgb(3, 18, 33);
           .project__preview {
-              width: 100%;
-              height: 150px;
-              background-color: black;
+            width: 100%;
+            height: 150px;
+            background-color: black;
           }
-          
         }
       }
     }

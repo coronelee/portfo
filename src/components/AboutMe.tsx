@@ -1,4 +1,3 @@
-
 import styles from "../styles/AboutMe.module.scss";
 import { FaTelegram } from "react-icons/fa";
 import { SlSocialVkontakte } from "react-icons/sl";
@@ -57,6 +56,8 @@ export default function AboutMe() {
               <span>vite</span>
               <span>adaptive</span>
               <span>cross-browser</span>
+              <span>vue</span>
+              <span>tailwindcss</span>
             </div>
             <h1>Знаком с:</h1>
             <div className={styles.tech}>

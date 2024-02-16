@@ -1,4 +1,3 @@
-
 import styles from "../styles/Works.module.scss";
 export default function Works() {
   return (
@@ -12,12 +11,30 @@ export default function Works() {
         </h4>
 
         <div className={styles.items}>
-            <div className={styles.items__project}>
-                <a href="https://coronelee.github.io/transportcompany/"><div className={styles.project__preview} style={{backgroundImage:"../assets/work1.jpg"}}></div></a>
-            </div>
-            <div className={styles.items__project}>
-                <a href="https://github.com/coronelee/avion"><div className={styles.project__preview} style={{backgroundImage:"../assets/work2.jpeg"}}></div></a>
-            </div>
+          <div className={styles.items__project}>
+            <a href="https://coronelee.github.io/transportcompany/">
+              <div
+                className={styles.project__preview}
+                style={{ backgroundImage: "../assets/work1.jpg" }}
+              ></div>
+            </a>
+          </div>
+          <div className={styles.items__project}>
+            <a href="https://github.com/coronelee/avion">
+              <div
+                className={styles.project__preview}
+                style={{ backgroundImage: "../assets/work2.jpeg" }}
+              ></div>
+            </a>
+          </div>
+          <div className={styles.items__project}>
+            <a href="https://coronelee.github.io/taskgame/">
+              <div
+                className={styles.project__preview}
+                style={{ backgroundImage: "../assets/work3.jpg" }}
+              ></div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
