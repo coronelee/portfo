@@ -481,17 +481,17 @@ html {
 ._wrapper__container_1jaio_8
   ._items__project_1jaio_40:nth-child(1)
   ._project__preview_1jaio_46 {
-  background-image: url("assets/work1-KevnwlGM.jpg");
+  background-image: url("../assets/work1-KevnwlGM.jpg");
 }
 ._wrapper__container_1jaio_8
   ._items__project_1jaio_40:nth-child(2)
   ._project__preview_1jaio_46 {
-  background-image: url("assets/work2-N0-bDh13.jpeg");
+  background-image: url("../assets/work2-N0-bDh13.jpeg");
 }
 ._wrapper__container_1jaio_8
   ._items__project_1jaio_40:nth-child(3)
   ._project__preview_1jaio_46 {
-  background-image: url("assets/work3-V2qCX3pM.jpg");
+  background-image: url("../assets/work3-V2qCX3pM.jpg");
 }
 @media (max-width: 950px) {
   ._wrapper__container_1jaio_8 h4 {
