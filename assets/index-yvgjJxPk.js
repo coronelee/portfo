@@ -9550,7 +9550,7 @@ function jp() {
                 href: "https://coronelee.github.io/transportcompany/",
                 children: h.jsx("div", {
                   className: _e.project__preview,
-                  style: { backgroundImage: "../sassets/work1.jpg" },
+                  style: { backgroundImage: "../assets/work1.jpg" },
                 }),
               }),
             }),
