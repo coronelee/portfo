@@ -12,10 +12,10 @@ export default function Works() {
 
         <div className={styles.items}>
           <div className={styles.items__project}>
-            <a href="https://coronelee.github.io/transportcompany/">
+            <a href="https://coronelee.github.io/sneaker-shop/">
               <div
                 className={styles.project__preview}
-                style={{ backgroundImage: "../assets/work1.jpg" }}
+                style={{ backgroundImage: "../assets/work4.jpg" }}
               ></div>
             </a>
           </div>
@@ -32,6 +32,14 @@ export default function Works() {
               <div
                 className={styles.project__preview}
                 style={{ backgroundImage: "../assets/work3.jpg" }}
+              ></div>
+            </a>
+          </div>
+          <div className={styles.items__project}>
+            <a href="https://coronelee.github.io/transportcompany/">
+              <div
+                className={styles.project__preview}
+                style={{ backgroundImage: "../assets/work1.jpg" }}
               ></div>
             </a>
           </div>
