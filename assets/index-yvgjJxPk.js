@@ -9520,7 +9520,7 @@ function jp() {
                 href: "https://coronelee.github.io/sneaker-shop/",
                 children: h.jsx("div", {
                   className: _e.project__preview,
-                  style: { backgroundImage: "../assets/work4.jpg" },
+                  style: { backgroundImage: "../assets/work4-UAFGc1pQ.jpg" },
                 }),
               }),
             }),
@@ -9530,7 +9530,7 @@ function jp() {
                 href: "https://github.com/coronelee/avion",
                 children: h.jsx("div", {
                   className: _e.project__preview,
-                  style: { backgroundImage: "../assets/work2.jpeg" },
+                  style: { backgroundImage: "../assets/work2-N0-bDh13.jpeg" },
                 }),
               }),
             }),
@@ -9540,7 +9540,7 @@ function jp() {
                 href: "https://coronelee.github.io/taskgame/",
                 children: h.jsx("div", {
                   className: _e.project__preview,
-                  style: { backgroundImage: "../assets/work3.jpg" },
+                  style: { backgroundImage: "../assets/work3-V2qCX3pM.jpg" },
                 }),
               }),
             }),
@@ -9550,7 +9550,7 @@ function jp() {
                 href: "https://coronelee.github.io/transportcompany/",
                 children: h.jsx("div", {
                   className: _e.project__preview,
-                  style: { backgroundImage: "../assets/work1.jpg" },
+                  style: { backgroundImage: "../assets/work1-KevnwlGM.jpg" },
                 }),
               }),
             }),
